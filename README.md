@@ -1,9 +1,9 @@
 # Descriptor-Guided-DFT-Bandgap-Correction Using Machine Learning
-Quantitative and interpretable modeling of semilocal DFT band-gap underestimation using composition-derived descriptors.
+Interpretable Machine Learning Modelling of DFT Band-Gap Underestimation from Composition-Derived Descriptors
 
 
 ========================================================
-Descriptor-Guided Modeling of Semilocal DFT Band-Gap Underestimation
+
 
 This repository contains the code and processed dataset supporting the manuscript submitted to Materials Letters.
 
