@@ -24,7 +24,7 @@ python src/main.py
 This will generate all tables and figures automatically in the results/ directory.
 
 DATA SOURCES
-Experimental band gaps: Juho dataset [3] DFT band gaps: Materials Project database [10]
+Experimental band gaps: Zhuo dataset [3] DFT band gaps: Materials Project database [10]
 The repository includes the processed dataset used for modeling. No external API calls or internet access are required.
 DATA AND CODE AVAILABILITY
 The dataset and source code will be made publicly available upon acceptance of the manuscript. This repository is provided for peer-review reproducibility.
