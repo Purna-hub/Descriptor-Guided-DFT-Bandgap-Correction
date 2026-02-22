@@ -23,6 +23,11 @@ REPRODUCIBILITY
 
 Python version: 3.10
 
+Create a virtual environment (optional but recommended):
+
+conda create -n myenv 
+conda activate myenv
+
 Install dependencies:
 
 pip install -r requirements.txt
@@ -35,8 +40,8 @@ This will generate all tables and figures automatically in the results/ director
 
 DATA SOURCES
 
-Experimental band gaps: Juho dataset
-DFT band gaps: Materials Project database
+Experimental band gaps: Juho dataset [3]
+DFT band gaps: Materials Project database [10]
 
 The repository includes the processed dataset used for modeling.
 No external API calls or internet access are required.
