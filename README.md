@@ -1,32 +1,23 @@
-Interpretable Machine Learning Modelling of DFT Band-Gap Underestimation from Composition-Derived Descriptors
-========================================================
-This repository contains the code and processed dataset supporting the manuscript submitted to Materials Letters.
-Study summary:
-	2928 experimentally validated compounds
-	Modeling of semilocal DFT band-gap underestimation
-	Nonlinear ensemble modeling (XGBoost)
-	MAE reduced from ~1.1 eV to ~0.52 eV
-	SHAP-based interpretability
+# Descriptor-Guided ML Correction of DFT Band Gap Underestimation
 
+## Installation
 
-REPRODUCIBILITY
- Python version: 3.10
+python -m venv venv
+source venv/bin/activate  (Linux/Mac)
+venv\Scripts\activate     (Windows)
 
-Create a virtual environment (optional but recommended): 
-conda create -n myenv 
-conda activate myenv
+pip install -r requirements.txt
 
-Install dependencies:
- pip install -r requirements.txt
+## Execution
 
-Run full pipeline: 
+Place dataset in:
+data/raw/bandgap_dataset.csv
+
+Run:
+
 python src/main.py
-This will generate all tables and figures automatically in the results/ directory.
 
-DATA SOURCES
-Experimental band gaps: Zhuo dataset [3] DFT band gaps: Materials Project database [10]
-The repository includes the processed dataset used for modeling. No external API calls or internet access are required.
-DATA AND CODE AVAILABILITY
-The dataset and source code will be made publicly available upon acceptance of the manuscript. This repository is provided for peer-review reproducibility.
-========================================================
-
+Outputs:
+- figures/Figure1_Parity_Residual.png
+- figures/Figure3_SHAP_summary.png
+- results/shap_feature_importance.csv
