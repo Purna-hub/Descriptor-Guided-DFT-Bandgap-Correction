@@ -1,0 +1,10 @@
+Feature,Mean_Absolute_SHAP
+delta_IE,0.2573091
+VEC,0.25635856
+d_fraction,0.25457627
+delta_chi,0.23589043
+Z_avg,0.22072494
+chi_avg,0.19430171
+delta_atomic_volume,0.09567054
+delta_r,0.07941981
+pauling_ionicity,0.0
